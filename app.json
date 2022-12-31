@@ -33,7 +33,7 @@
         "BROADCAST_AS_COPY": {
             "description": "Nothing to Put here."
         },
-        "BOT_OWNER": {
+        "ADMIN": {
             "description": "Bot Owner UserID"
         },
         "DATABASE_URL": {
