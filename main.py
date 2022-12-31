@@ -27,7 +27,7 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/d4e0b3b840b23dcd21fa4.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("➕ Add Me to Your Group ➕", url="http://t.me/MdiskDisneyStudiobot?startgroup=true")], 
+                                    [InlineKeyboardButton("➕ Add Me to Your Group ➕", url="http://t.me/Sharediskrobot?startgroup=true")], 
                                     [InlineKeyboardButton("♻️ Backup", url="https://t.me/disney_hindi_movie"),
                                      InlineKeyboardButton("🍿 Group", url="https://t.me/+JSeBDW0bmgtiOGZl")],
                                     [InlineKeyboardButton("📢 Updates", url="https://t.me/tech_ai_bots"),
@@ -113,7 +113,7 @@ async def button(bot, cmd: CallbackQuery):
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				 [  
-                                    [InlineKeyboardButton("➕ Add Me to Your Group ➕", url="http://t.me/MdiskDisneyStudiobot?startgroup=true")], 
+                                    [InlineKeyboardButton("➕ Add Me to Your Group ➕", url="http://t.me/Sharediskrobot?startgroup=true")], 
                                     [InlineKeyboardButton("♻️ Backup", url="https://t.me/disney_hindi_movie"),
                                      InlineKeyboardButton("🍿 Group", url="https://t.me/+JSeBDW0bmgtiOGZl")],
                                     [InlineKeyboardButton("📢 Updates", url="https://t.me/tech_ai_bots"),
