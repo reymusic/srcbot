@@ -8,7 +8,7 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/nikhivishwa/MdisneyBot",
+    "repository": "https://github.com/reymusic/srcbot",
     "website": "https://telegram.dog/Tech_Ai_Bots",
     "success_url": "https://telegram.im/@MdiskDisneyStudiobot",
     "env": {
