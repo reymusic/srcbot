@@ -13,7 +13,8 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001873244035))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "MdiskDisneyStudiobot")
     UPDATES_CHANNEL = int(os.environ.get("UPDATES_CHANNEL", -1001739538472))
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sample123:sample123@cluster0.ridbnpt.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.eviron.get("DB_NAME", "Srcbot")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://sample123:sample123@cluster0.ridbnpt.mongodb.net/?retryWrites=true&w=majority")
     BROADCAST_AS_COPY = os.environ.get("BROADCAST_AS_COPY", True)
     DATABASE_URL = int(os.environ.get("LOG_CHANNEL", -1001579883875))
     
