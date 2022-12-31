@@ -19,8 +19,7 @@ Bot = Client(
 User = Client(
     session_name=Config.USER_SESSION_STRING,
     api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    admin=Config.ADMIN
+    api_hash=Config.API_HASH
 )
 
 @Bot.on_message(filters.private & filters.command("start"))
