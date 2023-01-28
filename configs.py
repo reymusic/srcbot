@@ -4,19 +4,19 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 19977122))
-    API_HASH = os.environ.get("API_HASH", "168c8159234070c260a85df74feae727")
-    ADMIN = int(os.environ.get('ADMIN', 1903784299))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5873008491:AAGBIjoy9oj0NSH8aUQ4dujkhDPonIH0TC0")
+    API_ID = int(os.environ.get("API_ID", 1))
+    API_HASH = os.environ.get("API_HASH", "")
+    ADMIN = int(os.environ.get('ADMIN', 1))
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQCwrMD45DyZE1aS4pwlPnQTSdJ98R1IHHMRZP6A_X9ThFMyqkgeGhaQ268XaVytEGWUT6K21Yz3IK6kWdDYD0i-lRDw006fg6vopnYy9xSK4WeUCLVtD1x6ldkXpYNcHJhLuCevgRhl0m6e9OreXvTLNdTrBB2jfWB7-R7B92GXkkplRYxk5kEuklQ3jdtV2UhexzuZWJnlFD1ld5Bg9zIjq-O-nMP1HE4yi1h8nOoGOtao2nHTf_2S0kUeRUcA0WEYbCBSoUvAWHpVSCPbON-EYXj5ai_wfLxI9ozjRoOo80BnHObfgVLaWZ9tsTns7HSXH_311ExZ-5FK_CVxIG99cXlxawA")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001873244035))
+    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Sharediskrobot")
-    UPDATES_CHANNEL = int(os.environ.get("UPDATES_CHANNEL", -1001739538472))
+    UPDATES_CHANNEL = int(os.environ.get("UPDATES_CHANNEL", ))
     DB_NAME = os.environ.get("DB_NAME", "srcbot")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://sample123:sample123@cluster0.ridbnpt.mongodb.net/?retryWrites=true&w=majority")
+    DB_URL = os.environ.get("DB_URL", "")
     BROADCAST_AS_COPY = os.environ.get("BROADCAST_AS_COPY", True)
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001579883875))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
     
             ## variables for bot
     
